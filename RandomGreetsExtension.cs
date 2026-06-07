@@ -90,7 +90,6 @@ namespace RandomGreetsExtension
             }
         }
 
-        // All other interface methods remain the same...  
         public void CycleTick() { }
         public void UnhandledProtocol(IUser client, bool custom, byte msg, byte[] packet) { }
         public bool Joining(IUser client) { return true; }
